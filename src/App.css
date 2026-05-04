@@ -1,0 +1,8 @@
+.app-layout {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 25px;
+}

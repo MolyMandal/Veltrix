@@ -1,0 +1,89 @@
+.orders-page {
+  padding: 20px;
+}
+
+/* FORM */
+.order-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.order-form input,
+.order-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTONS */
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #4f46e5;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+.edit-btn {
+  background: #2563eb;
+  margin-right: 8px;
+}
+
+.edit-btn:hover {
+  background: #1d4ed8;
+}
+
+.delete-btn {
+  background: #ef4444;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background: #f3f4f6;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  border-top: 1px solid #eee;
+}
+
+/* STATUS BADGES */
+.badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+.badge.pending {
+  background: orange;
+}
+
+.badge.shipped {
+  background: blue;
+}
+
+.badge.delivered {
+  background: green;
+}
